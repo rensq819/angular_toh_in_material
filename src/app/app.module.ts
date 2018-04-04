@@ -17,11 +17,14 @@ import { HeroService }          from './hero.service';
 import { MessageService }       from './message.service';
 import { MessagesComponent }    from './messages/messages.component';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
     HttpClientModule,
 
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
