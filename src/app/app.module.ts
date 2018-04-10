@@ -18,13 +18,14 @@ import { MessageService }       from './message.service';
 import { MessagesComponent }    from './messages/messages.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { MaterialModule } from './material.module';
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    MaterialModule,
     HttpClientModule,
 
     // The HttpClientInMemoryWebApiModule module intercepts HTTP requests
